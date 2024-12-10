@@ -7,3 +7,7 @@ how to play:
 
 run python 
 and run game on godot engine
+
+###
+when u run python and u want to use mouse u should to take camera off
+###
