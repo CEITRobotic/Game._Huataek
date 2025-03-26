@@ -15,9 +15,9 @@ size = Vector2(248, 218)
 script = ExtResource("1_pc14u")
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(959.009, 538.051)
-rotation = 1.56833
-scale = Vector2(1.92325, 1.91973)
+position = Vector2(960.001, 539.988)
+rotation = 1.5708
+scale = Vector2(1.91473, 1.91812)
 texture = ExtResource("2_vvw80")
 
 [node name="Player" parent="." instance=ExtResource("2_5bof7")]

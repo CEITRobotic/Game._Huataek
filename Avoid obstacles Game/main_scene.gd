@@ -1,52 +1,74 @@
-extends Node
+extends Node 
 
-var spawn_timer = 0.05
-var spawn_interval = 1.0 # Spawn every 3 second
+var spawn_timer = 0.0  
+var spawn_interval = 1.0  
+var countdown_timer = 30.0  
+var game_won = false  
+var game_lost = false  
 
 var packet_scene = [
 	preload("res://Enemy1.tscn"),
-	preload("res://Enemy2.tscn"),
-	preload("res://Enemy3.tscn"),
-]
+	preload("res://Enemy2.tscn"), 
+	preload("res://Enemy3.tscn"), 
+] 
+
+func _ready():
+	randomize()  
 
 func _process(delta):
-	# Update the spawn timer
-	spawn_timer += delta
+	if game_won or game_lost:
+		return  
 	
-	# Check if it's time to spawn a new object
+	spawn_timer += delta  
 	if spawn_timer >= spawn_interval:
-		spawn_timer = -0.5
+		spawn_timer = 0.0  
 		spawn_random_object()
-	
-	var player = $Player
-	var enemy = $Enemy
+		
+	if countdown_timer > 0:
+		countdown_timer -= delta
+	else:
+		game_over()
+
+	if countdown_timer <= 0 and not game_won:
+		_gamewin()
+
+func _input(event):
+	if event.is_action_pressed("ui_accept") or event.is_action_pressed("spacebar"):  
+		if game_lost or game_won: 
+			restart_game()
+
+func _gamewin():
+	game_won = true  
+	$Label.text = "You Win! Press Space or Enter to Restart"
 
 func game_over():
-	get_tree().change_scene("res://EndScene.tscn")
+	game_lost = true
+	$Label.text = "Game Over! Press Space or Enter to Restart"  
 	
+	for child in get_children():
+		if child is CharacterBody2D:  
+			child.queue_free()
+
+func is_game_over() -> bool:
+	return countdown_timer <= 0  
+
+func restart_game(): 
+	get_tree().reload_current_scene()  
 
 func spawn_random_object():
-	randomize()
 	var x = randi() % packet_scene.size()
 	var scene = packet_scene[x].instantiate()
 	
-	# Get the viewport size
-	var viewport_size = Vector2(1920 , 1080)
-	print(x)
+	var viewport_size = get_viewport().get_visible_rect().size
 	
-	# Generate a random position along the top edge of the viewport
 	var random_position = Vector2(
 		randi_range(0, int(viewport_size.x)),
-		0 # Y position at the top of the viewport
-	)
-
-	# Set the position of the new object
-	scene.position = random_position
+		0  
+	) 
 	
-	# Add the new object to the scene tree
+	scene.position = random_position
 	add_child(scene)
 
 func _on_area_2d_body_entered(body):
 	if body.name == "Player":
-		get_tree().reload_current_scene()
-		game_over()
+		game_over()  

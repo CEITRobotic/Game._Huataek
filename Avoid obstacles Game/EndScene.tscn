@@ -1,9 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://danwx55a67vbh"]
 
-[ext_resource type="Texture2D" uid="uid://ca5p6hsc4spj" path="res://pic/Pink and Purple Pixel Illustrative Gaming Youtube Intro.png" id="1_i0cby"]
+[ext_resource type="Texture2D" uid="uid://d3jj5qakmwi0p" path="res://pic/GAME OVER.jpg" id="1_qby5k"]
 
 [node name="EndScene" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(960, 540)
-texture = ExtResource("1_i0cby")
+[node name="GameOver" type="Sprite2D" parent="."]
+position = Vector2(961, 540)
+scale = Vector2(1.00104, 1)
+texture = ExtResource("1_qby5k")
