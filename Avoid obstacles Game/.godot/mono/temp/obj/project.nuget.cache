@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ot8osEpr9ffj54tI6SvKfhRiuo5U3v1WUPnAEUB9M+F+LmtDmwOkL0ai/gA7qDAau1gRt6VpMDPQi0wD4Z7TkA==",
+  "dgSpecHash": "gO4wAHx9dBJBI+RLUgqjjsghvEY0n/D4hiLmtfGPAPIz/83mz0QNP7JpB+jdqq9ix0CjEXmm2WFNEFgNT0Ispw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
+  "projectFilePath": "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",

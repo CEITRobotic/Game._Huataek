@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\Avoid obstacles Game.csproj": {}
+    "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\Avoid obstacles Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\Avoid obstacles Game.csproj": {
+    "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\Avoid obstacles Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
+        "projectUniqueName": "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
         "projectName": "Avoid obstacles Game",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
+        "projectPath": "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\Avoid obstacles Game.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\Tracking-eyes-Game\\Avoid obstacles Game\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "D:\\py3\\project\\Huataek\\Avoid obstacles Game\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
