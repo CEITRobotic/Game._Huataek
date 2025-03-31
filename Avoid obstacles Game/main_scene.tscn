@@ -24,7 +24,7 @@ texture = ExtResource("2_vvw80")
 position = Vector2(198, 950)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(-390, -57)
+position = Vector2(-395, -295)
 
 [node name="Enemy1" parent="StaticBody2D" instance=ExtResource("3_ny2yc")]
 position = Vector2(3, -167)

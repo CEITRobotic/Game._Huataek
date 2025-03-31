@@ -25,7 +25,7 @@ func _physics_process(delta):
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6uwfu"]
-size = Vector2(240, 212)
+size = Vector2(101, 130)
 
 [node name="Enemy1" type="RigidBody2D"]
 position = Vector2(27, -158)
@@ -37,5 +37,5 @@ scale = Vector2(0.779298, 0.6815)
 texture = ExtResource("1_vn5ao")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(243, 107)
+position = Vector2(232.5, 107)
 shape = SubResource("RectangleShape2D_6uwfu")

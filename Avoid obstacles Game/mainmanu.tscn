@@ -1,0 +1,79 @@
+[gd_scene load_steps=5 format=3 uid="uid://buwkvqn0fk733"]
+
+[ext_resource type="Script" path="res://mainmanu.gd" id="1_fc8qv"]
+[ext_resource type="Texture2D" uid="uid://mixgjc74dct5" path="res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg" id="1_yly58"]
+[ext_resource type="FontFile" uid="uid://dd8e4q2duw3ct" path="res://SuperPixel-m2L8j.ttf" id="2_db6m3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ryj57"]
+bg_color = Color(0.666569, 0.666569, 0.666569, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
+
+[node name="Mainmanu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fc8qv")
+
+[node name="00c6f6f6d27d8c29f86e90d33128f3Dd" type="Sprite2D" parent="."]
+modulate = Color(0.548963, 0.548963, 0.548963, 1)
+position = Vector2(960, 540)
+rotation = 1.5708
+scale = Vector2(1.91493, 1.91792)
+texture = ExtResource("1_yly58")
+
+[node name="BTNplay" type="Button" parent="."]
+layout_mode = 2
+offset_left = 750.0
+offset_top = 542.0
+offset_right = 1164.0
+offset_bottom = 682.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.92
+focus_neighbor_left = NodePath(".")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_ryj57")
+text = "Play"
+
+[node name="BTNexit" type="Button" parent="."]
+layout_mode = 2
+offset_left = 750.0
+offset_top = 742.0
+offset_right = 1164.0
+offset_bottom = 871.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.92
+focus_neighbor_left = NodePath(".")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_ryj57")
+text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 628.0
+offset_top = 200.0
+offset_right = 1314.0
+offset_bottom = 341.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_db6m3")
+theme_override_font_sizes/font_size = 120
+text = "HUATAEK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="BTNplay" to="." method="_on_btnplay_pressed"]
+[connection signal="pressed" from="BTNexit" to="." method="_on_btnexit_pressed"]

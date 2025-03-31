@@ -1,17 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743005104
-EndScene.tscn::PackedScene::7187477431070100333::1743005104::0::1::::<><>::uid://d3jj5qakmwi0p::::res://pic/GAME OVER.jpg
-Enemy1.tscn::PackedScene::5316048597007579243::1743005104::0::1::::<><>::uid://dvrbiyw0aiu7f::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
-Enemy2.tscn::PackedScene::3770379435231216274::1743005104::0::1::::<><>::uid://dymbov6bwydho::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
-Enemy3.tscn::PackedScene::2585049392748136984::1743005104::0::1::::<><>::uid://djicyrea0e58e::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
+::res://::1743420066
+EndScene.gd::GDScript::-1::1743417701::0::1::::<>Node2D<>::
+EndScene.tscn::PackedScene::7187477431070100333::1743420041::0::1::::<><>::uid://d3jj5qakmwi0p::::res://pic/GAME OVER.jpg<>res://EndScene.gd
+Enemy1.tscn::PackedScene::5316048597007579243::1743420041::0::1::::<><>::uid://dvrbiyw0aiu7f::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
+Enemy2.tscn::PackedScene::3770379435231216274::1743420041::0::1::::<><>::uid://dymbov6bwydho::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
+Enemy3.tscn::PackedScene::2585049392748136984::1743420041::0::1::::<><>::uid://djicyrea0e58e::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
 export_presets.cfg::TextFile::-1::1743003627::0::1::::<><>::
 icon.svg::CompressedTexture2D::1992901401701746628::1743003627::1743003627::1::::<><>::
-main_scene.gd::GDScript::-1::1743005104::0::1::::<>Node<>::
-main_scene.tscn::PackedScene::5679124041679341432::1743005104::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://mixgjc74dct5::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
-Player.gd::GDScript::-1::1743003627::0::1::::<>PhysicsBody2D<>::
-Player.tscn::PackedScene::7001734479377417663::1743005104::0::1::::<><>::uid://g3c8mfp3xh7::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
-WinScene.tscn::PackedScene::4774108634586901929::1743005104::0::1::::<><>::
-::res://pic/::1743005345
+mainmanu.gd::GDScript::-1::1743417716::0::1::::<>Control<>::
+mainmanu.tscn::PackedScene::3836259400241789268::1743420041::0::1::::<><>::res://mainmanu.gd<>uid://mixgjc74dct5::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://dd8e4q2duw3ct::::res://SuperPixel-m2L8j.ttf
+main_scene.gd::GDScript::-1::1743419993::0::1::::<>Node<>::
+main_scene.tscn::PackedScene::5679124041679341432::1743420050::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://mixgjc74dct5::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
+Player.gd::GDScript::-1::1743420041::0::1::::<>Node<>::
+Player.tscn::PackedScene::7001734479377417663::1743420041::0::1::::<><>::uid://g3c8mfp3xh7::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
+SuperPixel-m2L8j.ttf::FontFile::7438248586118932439::1740626372::1743416692::1::::<><>::
+WinScene.gd::GDScript::-1::1743418065::0::1::::<>Node<>::
+WinScene.tscn::PackedScene::4774108634586901929::1743420041::0::1::::<><>::res://WinScene.gd<>uid://daur18nrkd7md::::res://pic/winscene.jpg
+::res://pic/::1743416352
 00c6f6f6d27d8c29f86e90d33128f3dd.jpg::CompressedTexture2D::860188828578493204::1743003627::1743003627::1::::<><>::
 0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png::CompressedTexture2D::8668398488323329909::1743003627::1743003627::1::::<><>::
 4edfdb1e5143a6b354d2f4cf40a22228.jpg::CompressedTexture2D::3054607587526427809::1743003627::1743003627::1::::<><>::
@@ -31,5 +36,5 @@ GAME OVER.jpg::CompressedTexture2D::9143729940327660337::1743002991::1743004509:
 Pink and Purple Pixel Illustrative Gaming Youtube Intro.png::CompressedTexture2D::142227623826788951::1743003627::1743003627::1::::<><>::
 rocket.png::CompressedTexture2D::427624449663741698::1743003627::1743003627::1::::<><>::
 winscene.jpg::CompressedTexture2D::7201629979817988915::1743005345::1743005345::1::::<><>::
-::res://Player/::1743004382
+::res://Player/::1743416474
 player.tscn::PackedScene::8860059433893339730::1743003627::0::1::::<><>::uid://3nm2a6rsbaq3::::res://icon.svg

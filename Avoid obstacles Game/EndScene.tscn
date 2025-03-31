@@ -1,10 +1,36 @@
-[gd_scene load_steps=2 format=3 uid="uid://danwx55a67vbh"]
+[gd_scene load_steps=4 format=3 uid="uid://danwx55a67vbh"]
 
 [ext_resource type="Texture2D" uid="uid://d3jj5qakmwi0p" path="res://pic/GAME OVER.jpg" id="1_qby5k"]
+[ext_resource type="Script" path="res://EndScene.gd" id="1_t1utj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l3nbh"]
+bg_color = Color(0.666569, 0.666569, 0.666569, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 5
 
 [node name="EndScene" type="Node2D"]
+script = ExtResource("1_t1utj")
 
 [node name="GameOver" type="Sprite2D" parent="."]
 position = Vector2(961, 540)
 scale = Vector2(1.00104, 1)
 texture = ExtResource("1_qby5k")
+
+[node name="BTNrestart" type="Button" parent="."]
+offset_left = 748.0
+offset_top = 773.0
+offset_right = 1162.0
+offset_bottom = 913.0
+size_flags_horizontal = 5
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.92
+focus_neighbor_left = NodePath(".")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_l3nbh")
+text = "Restart"
+
+[connection signal="pressed" from="BTNrestart" to="." method="_on_btnreplay_pressed"]

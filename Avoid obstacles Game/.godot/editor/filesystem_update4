@@ -4,6 +4,11 @@ res://Enemy2.tscn
 res://Enemy3.tscn
 res://EndScene.tscn
 res://Player.tscn
-res://main_scene.gd
-res://WinScece.tscn
 res://WinScene.tscn
+res://mainmanu.tscn
+res://main_scene.gd
+res://Player.gd
+res://Main.gd
+res://mainmanu.gd
+res://Main.tscn
+res://WinScene.gd
