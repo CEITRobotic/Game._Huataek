@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ch0esqr575rm6"]
 
-[ext_resource type="Texture2D" uid="uid://dvrbiyw0aiu7f" path="res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png" id="1_vn5ao"]
+[ext_resource type="Texture2D" uid="uid://bl7mgilffhrl7" path="res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png" id="1_vn5ao"]
 
 [sub_resource type="GDScript" id="GDScript_eiqbj"]
 script/source = "extends Node2D

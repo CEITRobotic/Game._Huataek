@@ -1,40 +1,46 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743420066
+::res://::1743604573
 EndScene.gd::GDScript::-1::1743417701::0::1::::<>Node2D<>::
-EndScene.tscn::PackedScene::7187477431070100333::1743420041::0::1::::<><>::uid://d3jj5qakmwi0p::::res://pic/GAME OVER.jpg<>res://EndScene.gd
-Enemy1.tscn::PackedScene::5316048597007579243::1743420041::0::1::::<><>::uid://dvrbiyw0aiu7f::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
-Enemy2.tscn::PackedScene::3770379435231216274::1743420041::0::1::::<><>::uid://dymbov6bwydho::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
-Enemy3.tscn::PackedScene::2585049392748136984::1743420041::0::1::::<><>::uid://djicyrea0e58e::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
+EndScene.tscn::PackedScene::7187477431070100333::1743604572::0::1::::<><>::uid://jhadecefef8::::res://pic/GAME OVER.jpg<>res://EndScene.gd
+Enemy1.tscn::PackedScene::5316048597007579243::1743604572::0::1::::<><>::uid://bl7mgilffhrl7::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
+Enemy2.tscn::PackedScene::3770379435231216274::1743604572::0::1::::<><>::uid://g50uirtk4vag::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
+Enemy3.tscn::PackedScene::2585049392748136984::1743604572::0::1::::<><>::uid://d2yop8i0uvyjb::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
 export_presets.cfg::TextFile::-1::1743003627::0::1::::<><>::
 icon.svg::CompressedTexture2D::1992901401701746628::1743003627::1743003627::1::::<><>::
-mainmanu.gd::GDScript::-1::1743417716::0::1::::<>Control<>::
-mainmanu.tscn::PackedScene::3836259400241789268::1743420041::0::1::::<><>::res://mainmanu.gd<>uid://mixgjc74dct5::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://dd8e4q2duw3ct::::res://SuperPixel-m2L8j.ttf
-main_scene.gd::GDScript::-1::1743419993::0::1::::<>Node<>::
-main_scene.tscn::PackedScene::5679124041679341432::1743420050::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://mixgjc74dct5::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
-Player.gd::GDScript::-1::1743420041::0::1::::<>Node<>::
-Player.tscn::PackedScene::7001734479377417663::1743420041::0::1::::<><>::uid://g3c8mfp3xh7::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
+mainmanu.gd::GDScript::-1::1743420721::0::1::::<>Control<>::
+mainmanu.tscn::PackedScene::3836259400241789268::1743604573::0::1::::<><>::res://mainmanu.gd<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://dd8e4q2duw3ct::::res://SuperPixel-m2L8j.ttf<>uid://wekg6spfy4nk::::res://pic/player.png
+main_scene.gd::GDScript::-1::1743421597::0::1::::<>Node<>::
+main_scene.tscn::PackedScene::5679124041679341432::1743604572::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
+player1.png::CompressedTexture2D::8972504334380418685::1743602722::1743604594::1::::<><>::
+player movement.png::CompressedTexture2D::7585016275694177196::1743571377::1743571343::1::::<><>::
+Player.gd::GDScript::-1::1743422330::0::1::::<>PhysicsBody2D<>::
+Player.tscn::PackedScene::7001734479377417663::1743604573::0::1::::<><>::uid://bjq08du5hspw4::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
 SuperPixel-m2L8j.ttf::FontFile::7438248586118932439::1740626372::1743416692::1::::<><>::
-WinScene.gd::GDScript::-1::1743418065::0::1::::<>Node<>::
-WinScene.tscn::PackedScene::4774108634586901929::1743420041::0::1::::<><>::res://WinScene.gd<>uid://daur18nrkd7md::::res://pic/winscene.jpg
-::res://pic/::1743416352
-00c6f6f6d27d8c29f86e90d33128f3dd.jpg::CompressedTexture2D::860188828578493204::1743003627::1743003627::1::::<><>::
-0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png::CompressedTexture2D::8668398488323329909::1743003627::1743003627::1::::<><>::
-4edfdb1e5143a6b354d2f4cf40a22228.jpg::CompressedTexture2D::3054607587526427809::1743003627::1743003627::1::::<><>::
-7a45c716ec99151ad20853be8a036b6a-removebg-preview.png::CompressedTexture2D::14091665966186714::1743003627::1743003627::1::::<><>::
-9a50731d3db0b93052157ba14e05ed08-removebg-preview.png::CompressedTexture2D::8868653700503304456::1743003627::1743003627::1::::<><>::
-17f3961f0be1d588b6d084ce4e3400b4.jpg::CompressedTexture2D::7999734752562641283::1743003627::1743003627::1::::<><>::
-47c48d7649cbea4d17e8ee52242b558a.jpg::CompressedTexture2D::8413949602499303191::1743003627::1743003627::1::::<><>::
-195e488e18dd5abf3b5ca14be83971c5-removebg-preview.png::CompressedTexture2D::5638249312481485125::1743003627::1743003627::1::::<><>::
-2267a7f98fbe36e1ef159e7427c2cc9c-removebg-preview.png::CompressedTexture2D::75974644637582218::1743003627::1743003627::1::::<><>::
-9833c84a8aad04a743c7b3559b93ebe6.jpg::CompressedTexture2D::3384441802857080269::1743003627::1743003627::1::::<><>::
-788677844487092d3b038014ea50ff04.jpg::CompressedTexture2D::5824486629224635058::1743003627::1743003627::1::::<><>::
-astronaut-yoga-meditation-minimal-art-space-artwork-black-1920x1080-8016.jpg::CompressedTexture2D::3028279966946327922::1743003627::1743003627::1::::<><>::
-b530935eaf09bd40cc772f4fd6b73c9e.jpg::CompressedTexture2D::4842305308425523625::1743003627::1743003627::1::::<><>::
-d747816b587ff17018661a32d490fe1c-removebg-preview.png::CompressedTexture2D::7807641858003094798::1743003627::1743003627::1::::<><>::
-f3d27ac8aaae1f817359df8dfe2d84fd-removebg-preview.png::CompressedTexture2D::2061225290026497480::1743003627::1743003627::1::::<><>::
-GAME OVER.jpg::CompressedTexture2D::9143729940327660337::1743002991::1743004509::1::::<><>::
-Pink and Purple Pixel Illustrative Gaming Youtube Intro.png::CompressedTexture2D::142227623826788951::1743003627::1743003627::1::::<><>::
-rocket.png::CompressedTexture2D::427624449663741698::1743003627::1743003627::1::::<><>::
+WinScene.gd::GDScript::-1::1743422266::0::1::::<>Node<>::
+WinScene.tscn::PackedScene::4774108634586901929::1743604573::0::1::::<><>::res://WinScene.gd<>uid://daur18nrkd7md::::res://pic/winscene.jpg
+::res://pic/::1743604570
+00c6f6f6d27d8c29f86e90d33128f3dd.jpg::CompressedTexture2D::4988319095418653046::1743003627::1743604570::1::::<><>::
+0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png::CompressedTexture2D::3225297807931800770::1743003627::1743604570::1::::<><>::
+7a45c716ec99151ad20853be8a036b6a-removebg-preview.png::CompressedTexture2D::3052727366357653509::1743003627::1743604570::1::::<><>::
+9a50731d3db0b93052157ba14e05ed08-removebg-preview.png::CompressedTexture2D::484618482473523842::1743003627::1743604570::1::::<><>::
+195e488e18dd5abf3b5ca14be83971c5-removebg-preview.png::CompressedTexture2D::6439000148748854748::1743003627::1743604570::1::::<><>::
+2267a7f98fbe36e1ef159e7427c2cc9c-removebg-preview.png::CompressedTexture2D::345891250802523279::1743003627::1743604570::1::::<><>::
+b530935eaf09bd40cc772f4fd6b73c9e.jpg::CompressedTexture2D::953285531203505952::1743003627::1743604570::1::::<><>::
+d747816b587ff17018661a32d490fe1c-removebg-preview.png::CompressedTexture2D::9104784467003371931::1743003627::1743604570::1::::<><>::
+f3d27ac8aaae1f817359df8dfe2d84fd-removebg-preview.png::CompressedTexture2D::1483667181754395336::1743003627::1743604570::1::::<><>::
+GAME OVER.jpg::CompressedTexture2D::19004582581588867::1743002991::1743604570::1::::<><>::
+player.png::CompressedTexture2D::1553031612463569832::1743568365::1743604570::1::::<><>::
 winscene.jpg::CompressedTexture2D::7201629979817988915::1743005345::1743005345::1::::<><>::
-::res://Player/::1743416474
+::res://pic/player/::1743604231
+Layer 1.png::CompressedTexture2D::8589911752748861134::1743569448::1743604231::1::::<><>::
+Layer 2.png::CompressedTexture2D::8858441215563221630::1743569448::1743604231::1::::<><>::
+Layer 3.png::CompressedTexture2D::7617943640867752376::1743569448::1743604231::1::::<><>::
+Layer 4.png::CompressedTexture2D::2018398282516146696::1743569448::1743604231::1::::<><>::
+Layer 5.png::CompressedTexture2D::5496792676596060147::1743569447::1743604231::1::::<><>::
+Layer 6.png::CompressedTexture2D::3534802608966332498::1743569447::1743604231::1::::<><>::
+Layer 7.png::CompressedTexture2D::5853245639502820723::1743569447::1743604231::1::::<><>::
+Layer 8.png::CompressedTexture2D::8118630770441537380::1743569447::1743604231::1::::<><>::
+Layer 9.png::CompressedTexture2D::3154945039893533207::1743569447::1743604231::1::::<><>::
+Layer 10.png::CompressedTexture2D::8471982125523564356::1743569447::1743604231::1::::<><>::
+::res://Player/::1743420708
 player.tscn::PackedScene::8860059433893339730::1743003627::0::1::::<><>::uid://3nm2a6rsbaq3::::res://icon.svg

@@ -10,6 +10,8 @@ var packet_scene = [
 	preload("res://Enemy1.tscn"),
 	preload("res://Enemy2.tscn"),
 	preload("res://Enemy3.tscn"),
+	preload("res://Enemy4.tscn"),
+	preload("res://Enemy5.tscn"),
 ]
 
 var spawn_count = 1  # เริ่มต้นที่สุ่ม 1 ตัว
@@ -57,6 +59,7 @@ func game_over():
 	game_lost = true
 	await get_tree().create_timer(1.0).timeout
 	get_tree().change_scene_to_file("res://Endscene.tscn")
+	countdown_timer = 30
 	
 	for child in get_children():
 		if child is CharacterBody2D:
