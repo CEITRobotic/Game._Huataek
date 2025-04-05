@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avoid obstacles Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+165d464890dddca69aa517da3d2e37b4f856c876")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e094101808303a85b4bdeb21d9631f87fa86a12")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avoid obstacles Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avoid obstacles Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
