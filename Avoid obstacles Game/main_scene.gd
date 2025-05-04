@@ -5,6 +5,7 @@ var spawn_interval = 2.0  # เริ่มต้นที่ 2 วินาท�
 var countdown_timer = 30.0  # เวลานับถอยหลัง
 var game_won = false
 var game_lost = false
+var timer = 0.0  # ตัวแปรสำหรับเก็บเวลา
 
 var packet_scene = [
 	preload("res://Enemy1.tscn"),
@@ -32,7 +33,7 @@ func _process(delta):
 	if countdown_timer > 0:
 		countdown_timer -= delta
 	else:
-		game_over()
+		game_over()  # ถ้าหมดเวลาให้แพ้
 
 	# เพิ่มจำนวนศัตรูที่สุ่มและความเร็วในการสุ่มตามเวลา
 	if countdown_timer <= 20 and spawn_count == 2:
@@ -53,14 +54,23 @@ func _process(delta):
 func game_win():
 	game_won = true
 	await get_tree().create_timer(1.0).timeout
-	get_tree().change_scene_to_file("res://WinScene.tscn")
+	if not game_lost:  # ตรวจสอบว่าไม่ได้แพ้ก่อนที่จะไปหน้าชนะ
+		get_tree().change_scene_to_file("res://Endcene.tscn")
 
 func game_over():
 	game_lost = true
-	await get_tree().create_timer(1.0).timeout
-	get_tree().change_scene_to_file("res://Endscene.tscn")
-	countdown_timer = 30
+	#timer = round(timer, 2)  # ปัดเวลาให้เป็นทศนิยม 2 ตำแหน่ง
+	var end_scene = load("res://Endscene.tscn").instance()
+	get_tree().current_scene.get_parent().add_child(end_scene)
 	
+	var lose_label = end_scene.get_node("LoseLabel")
+	lose_label.text = "คุณแพ้! เวลาเล่น: " + str(timer) + " วินาที"
+
+	# ไม่ต้องไปหน้าชนะถ้าแพ้แล้ว
+	if not game_won:
+		get_tree().change_scene_to_file("res://Endscene.tscn")
+
+	# ลบศัตรูทั้งหมดที่เหลืออยู่
 	for child in get_children():
 		if child is CharacterBody2D:
 			child.queue_free()

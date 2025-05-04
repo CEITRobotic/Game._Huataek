@@ -1,10 +1,2 @@
 res://main_scene.tscn
-res://Enemy1.tscn
-res://Enemy2.tscn
-res://Enemy3.tscn
-res://Enemy4.tscn
-res://Enemy5.tscn
-res://EndScene.tscn
-res://Player.tscn
-res://WinScene.tscn
-res://mainmanu.tscn
+res://main_scene.gd

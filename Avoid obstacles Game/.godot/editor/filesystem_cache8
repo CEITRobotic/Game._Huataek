@@ -1,27 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743824971
+::res://::1746376601
 EndScene.gd::GDScript::-1::1743417701::0::1::::<>Node2D<>::
-EndScene.tscn::PackedScene::7187477431070100333::1743606842::0::1::::<><>::uid://jhadecefef8::::res://pic/GAME OVER.jpg<>res://EndScene.gd
-Enemy1.tscn::PackedScene::5316048597007579243::1743606842::0::1::::<><>::uid://bl7mgilffhrl7::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
-Enemy2.tscn::PackedScene::3770379435231216274::1743606842::0::1::::<><>::uid://g50uirtk4vag::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
-Enemy3.tscn::PackedScene::2585049392748136984::1743606842::0::1::::<><>::uid://d2yop8i0uvyjb::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
+EndScene.tscn::PackedScene::7187477431070100333::1746166270::0::1::::<><>::uid://jhadecefef8::::res://pic/GAME OVER.jpg<>res://EndScene.gd
+Enemy1.tscn::PackedScene::5316048597007579243::1746166269::0::1::::<><>::uid://bl7mgilffhrl7::::res://pic/0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png
+Enemy2.tscn::PackedScene::3770379435231216274::1746166269::0::1::::<><>::uid://g50uirtk4vag::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
+Enemy3.tscn::PackedScene::2585049392748136984::1746166269::0::1::::<><>::uid://d2yop8i0uvyjb::::res://pic/d747816b587ff17018661a32d490fe1c-removebg-preview.png
 Enemy4.gd::GDScript::-1::1743604934::0::1::::<>Node2D<>::
-Enemy4.tscn::PackedScene::8773169536814741707::1743606842::0::1::::<><>::res://Enemy4.gd<>uid://g50uirtk4vag::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
+Enemy4.tscn::PackedScene::8773169536814741707::1746166269::0::1::::<><>::res://Enemy4.gd<>uid://g50uirtk4vag::::res://pic/9a50731d3db0b93052157ba14e05ed08-removebg-preview.png
 Enemy5.gd::GDScript::-1::1743604941::0::1::::<>Node2D<>::
-Enemy5.tscn::PackedScene::8518462927942668603::1743606887::0::1::::<><>::uid://vex1twutwf33::::res://pic/f3d27ac8aaae1f817359df8dfe2d84fd-removebg-preview.png<>res://Enemy5.gd
+Enemy5.tscn::PackedScene::8518462927942668603::1746166270::0::1::::<><>::uid://vex1twutwf33::::res://pic/f3d27ac8aaae1f817359df8dfe2d84fd-removebg-preview.png<>res://Enemy5.gd
 export_presets.cfg::TextFile::-1::1743003627::0::1::::<><>::
 icon.svg::CompressedTexture2D::1992901401701746628::1743003627::1743003627::1::::<><>::
 mainmanu.gd::GDScript::-1::1743420721::0::1::::<>Control<>::
-mainmanu.tscn::PackedScene::3836259400241789268::1743606842::0::1::::<><>::res://mainmanu.gd<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://dd8e4q2duw3ct::::res://SuperPixel-m2L8j.ttf<>uid://wekg6spfy4nk::::res://pic/player.png
+mainmanu.tscn::PackedScene::3836259400241789268::1746166270::0::1::::<><>::res://mainmanu.gd<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://dd8e4q2duw3ct::::res://SuperPixel-m2L8j.ttf<>uid://wekg6spfy4nk::::res://pic/player.png
 main_scene.gd::GDScript::-1::1743606368::0::1::::<>Node<>::
-main_scene.tscn::PackedScene::5679124041679341432::1743606842::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
+main_scene.tscn::PackedScene::5679124041679341432::1746166269::0::1::::<><>::res://main_scene.gd<>uid://c60xsq02mhroh::::res://Player.tscn<>uid://cdcm5fa22hw35::::res://pic/00c6f6f6d27d8c29f86e90d33128f3dd.jpg<>uid://ch0esqr575rm6::::res://Enemy1.tscn
 player1.png::CompressedTexture2D::8972504334380418685::1743602722::1743604594::1::::<><>::
 player movement.png::CompressedTexture2D::7585016275694177196::1743571377::1743571343::1::::<><>::
 Player.gd::GDScript::-1::1743606235::0::1::::<>PhysicsBody2D<>::
-Player.tscn::PackedScene::7001734479377417663::1743606842::0::1::::<><>::uid://bjq08du5hspw4::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
+Player.tscn::PackedScene::7001734479377417663::1746166270::0::1::::<><>::uid://bjq08du5hspw4::::res://pic/7a45c716ec99151ad20853be8a036b6a-removebg-preview.png<>res://Player.gd
 SuperPixel-m2L8j.ttf::FontFile::7438248586118932439::1740626372::1743416692::1::::<><>::
 WinScene.gd::GDScript::-1::1743422266::0::1::::<>Node<>::
-WinScene.tscn::PackedScene::4774108634586901929::1743606842::0::1::::<><>::res://WinScene.gd<>uid://daur18nrkd7md::::res://pic/winscene.jpg
+WinScene.tscn::PackedScene::4774108634586901929::1746166270::0::1::::<><>::res://WinScene.gd<>uid://daur18nrkd7md::::res://pic/winscene.jpg
 ::res://pic/::1743604570
 00c6f6f6d27d8c29f86e90d33128f3dd.jpg::CompressedTexture2D::4988319095418653046::1743003627::1743604570::1::::<><>::
 0ea8bbc35c1ad014d2fd723568a34f17-removebg-preview.png::CompressedTexture2D::3225297807931800770::1743003627::1743604570::1::::<><>::
